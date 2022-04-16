@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn{
+    background-color: #e67e22;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+
+/*======== header =======*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_logo{
+    width: 150px;
+}
+header .header_logo img{
+    width: 100%;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.nav ul li{
+    color: #333;
+}
+.nav ul li ::hover{
+    color: #e67e22;
+}

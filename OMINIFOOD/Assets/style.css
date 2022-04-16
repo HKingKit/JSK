@@ -256,8 +256,9 @@ header .header_logo img{
 }
 
 .how-section .how-main .how-item .how-img{
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .how-section .how-main .how-img img{
@@ -265,17 +266,17 @@ header .header_logo img{
     justify-content: center;
     width: 35%;
 }
-.how-section .how-main .how-img ::before{
+.how-section .how-main .how-img::before{
     width: 60%;
     padding-bottom: 60%;
     border-radius: 50%;
     background:#fdf2e9;
-    z-index:-2;
+    z-index: -2;
 }
 
 .how-section .how-main .how-img::after{
-    width: 100%;
-    padding-bottom: 100%;
+    width: 40%;
+    padding-bottom: 40%;
     border-radius: 50%;
     background: #fae5d3;
 }
