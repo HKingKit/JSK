@@ -1,14 +1,27 @@
-let so = Number(prompt("Số của bạn là: "));
+let so = Number(prompt("Điền con số từ 4-20"));
 
-
-for (so = 4; so <= 20; so=so+1){
-    if (so % 2 == 0) {
-        console.log(`Số của bạn là: ${so}`);
-    }
-    else if (so > 20) {
-        console.log(`Chỉ nhập từ 4-20`);
-        }
+if (so % 2 == 0 && 4 <= so && so < 21) {
+    console.log(`Số của bạn là: ${so}`)
 }
+else if (so % 2 ==0,so < 21,so--) {
+    console.log(`Số của bạn là: ${so}`)
+}
+else if (so > 20) {
+    console.log(`Chỉ nhập từ 4-20`)
+}
+else if (so < 4){
+    console.log(`Chỉ nhập từ 4-20`)
+}
+
+// else {console.log`Chỉ nhập từ 4-20`}
+// // for (so = 4; so <= 20; so=so+1){
+//     if (so % 2 == 0) {
+//         console.log(`Số của bạn là: ${so}`);
+//     }
+//     else if (so > 20) {
+//         console.log(`Chỉ nhập từ 4-20`);
+//         }
+// }
 
 for(i=0;i<5;i++) {
     for(j=0;j<=i;j++) {
