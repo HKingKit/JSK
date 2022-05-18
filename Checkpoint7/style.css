@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-primary{
+    background-color: aqua;
+    color:red;
+    cursor: pointer;
+    border-radius: 50%;
+    max-width:  50px;
+    text-align: center;
+}

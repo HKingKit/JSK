@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="data-form">
+    <div class="name-full">
+        <label for="name"></label>
+    <input type="text" name="name" id="name">
+    </div>
+    <div class="age-full">
+        <label for="age"></label>
+    <input type="text" name="age" id="age">
+    </div>
+    <div class="address-full">
+        <label for="address"></label>
+    <input type="text" name="address" id="address">
+    </div>
+    <div class="btn-primary" onclick="addItem()">Thêm</div>
+    </form>
+    <table border="1" cellspacing="1" id="full">
+        <tr><th>
+            <td>Student</td>
+        </th></tr>
+        <tr>
+            <td>student code</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Adress</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tbody id="cart-table-body"></tbody>
+    </Table>
+    <script src="./main.js"></script>
+</body>
+</html>
