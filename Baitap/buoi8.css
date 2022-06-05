@@ -1,0 +1,11 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+.container{
+    background-color:blue;
+    color: white;
+}
